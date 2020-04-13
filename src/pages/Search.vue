@@ -134,16 +134,16 @@
           <v-layout class="font-poppins">
             <v-flex md12 >
               <span class="custom-font-color font-weight-bold">Transaction ID:</span>
-              {{transaction.TxId}} 
+              {{transaction.TxId}}
               <br />
               <span class="custom-font-color font-weight-bold">Time Stamp:</span>
-              {{transaction.Timestamp}} 
+              {{transaction.Timestamp}}
               <br />
               <span class="custom-font-color font-weight-bold">Network:</span>
-              {{transaction.Value.NetworkInOut}} 
+              {{transaction.Value.NetworkInOut}}
               <br />
               <span class="custom-font-color font-weight-bold">Phase:</span>
-              {{transaction.Value.CurrentPhase}} 
+              {{transaction.Value.CurrentPhase}}
               <br />
               <span class="custom-font-color font-weight-bold">Provider:</span>
               {{transaction.Value.Provider}} </v-flex>

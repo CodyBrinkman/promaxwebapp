@@ -57,7 +57,7 @@
               <label>${{diag.TotalCharge}}</label>
               <v-text-field class="t-width"  flat v-model="totalBilledAmount[index]"></v-text-field>
               </v-flex>
-              
+
               <v-flex
                 md3
                 v-for="diag in statement.diagnosisArr"
